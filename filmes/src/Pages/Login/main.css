@@ -1,0 +1,17 @@
+form{
+    min-height: 50vh;
+}
+
+.login{
+    padding: 40px;
+}
+
+.btn{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 55px;
+ }
+
+ .inputs{
+    line-height: 30px;
+ }

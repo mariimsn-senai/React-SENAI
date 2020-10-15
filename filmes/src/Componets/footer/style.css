@@ -1,0 +1,23 @@
+.footer{
+    padding-left: 555px;
+    background-color: #F6511D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.footer hr{
+    display: flex;
+    height: 150px;
+}
+
+#imgRodape{
+    padding-right: 50px;
+}
+
+.texto{
+    color: white;
+    padding-left: 50px;
+    line-height: 30px;
+}
