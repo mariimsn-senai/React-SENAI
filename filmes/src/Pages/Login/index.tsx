@@ -57,7 +57,7 @@ function Login() {
                         <Input type="email" name="email" label="E-mail" onChange={e => setEmail(e.target.value)}/>
                         <Input type="password" name="senha" label="Senha" onChange={s => setSenha(s.target.value)}/>
                         <div className="btn">
-                            <Button onClick value="Enviar"/>
+                            <Button send="Enviar"/>
                         </div>
                       </div>
                     </form>

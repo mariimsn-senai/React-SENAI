@@ -2,15 +2,14 @@ import React, {ButtonHTMLAttributes} from 'react';
 import './style.css';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
-    value: string;
-    onClick: any;
+    send: string;
 }
 
-const Button: React.FC<ButtonProps> = ({onClick, value, ...rest}) =>{
+const Button: React.FC<ButtonProps> = ({send }) =>{
     return(
         <div className="btn">
-            <button onClick={onClick}>
-                {value}
+            <button>
+                {send}
             </button>
         </div>
     );

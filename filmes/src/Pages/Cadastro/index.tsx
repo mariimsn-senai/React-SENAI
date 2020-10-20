@@ -21,7 +21,7 @@ function Cadastro() {
                             <Input type="password" name="senha" label="Senha" />
                         </div>
                         <div className="btn-cadastro">
-                            <Button onClick value="Enviar"/>
+                            <Button send="Enviar"/>
                         </div>
                     </div>
                 </form>
